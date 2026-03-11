@@ -10,7 +10,24 @@ body{
     background-repeat: repeat;
     
     
-    color: #ffff;
+    color: #ffffff;
+}
+/* Estilo normal (computador) */
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* Estilo para celular */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
 }
 
 header{
@@ -53,9 +70,11 @@ h2{
 }
 h3{
     font-size: 30px;
+    color: rgb(255, 255, 255);
 }
 p{
     font-size: 20px;
+    color: rgb(255, 255, 255);
 }
 
 .boxProduto{
@@ -80,13 +99,6 @@ p{
     width: 400px;
 }
 
-.btn{
-    width: 150px;
-    background-color: #FFAE00;
-    padding: 20px;
-    border:none;
-    border-radius: 10px;
-    color: #ffff;
-}
+
 
 
