@@ -20,7 +20,7 @@ body{
 /* Estilo para celular */
 @media (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     flex-direction: column;
   }
